@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.filters{
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 80vw;
+    border-radius: 25%;
+    background: rgb(255,255,255);
+    background: linear-gradient(101deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(167,255,242,1) 100%);
+}
+
+.tags{
+    display: inline-block;
+    align-self: center;
+}
+
+.company-details {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.company-details h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
